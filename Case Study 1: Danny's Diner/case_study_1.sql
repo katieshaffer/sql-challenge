@@ -56,7 +56,7 @@ VALUES
 -- 1. What is the total amount each customer spent at the restaurant?
 SELECT customer_id, SUM(price)
 FROM dannys_diner.sales
-JOIN dannys_diner.menu ON sales.product_id = menu.product_id
+INNER JOIN dannys_diner.menu ON sales.product_id = menu.product_id
 GROUP BY customer_id;
 
 -- 2. How many days has each customer visited the restaurant?
@@ -79,8 +79,8 @@ WITH first_order AS
 SELECT DISTINCT sales.customer_id
 	 , STRING_AGG(product_name, ', ') AS first_products_ordered
 FROM dannys_diner.sales
-JOIN first_order ON sales.order_date = first_order.first_order_date
-JOIN dannys_diner.menu ON sales.product_id = menu.product_id
+INNER JOIN first_order ON sales.order_date = first_order.first_order_date
+INNER JOIN dannys_diner.menu ON sales.product_id = menu.product_id
 GROUP BY sales.customer_id, product_name;
 
 -- 4. What is the most purchased item on the menu and how many times was it purchased by all customers?
