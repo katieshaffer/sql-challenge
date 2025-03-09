@@ -10,4 +10,4 @@ This repo contains my SQL queries for the case studies from [Danny Ma's SQL Chal
 
 **Case Study 2: Pizza Runner**
 * Analyze data on a pizza delivery orders
-* [SQL queries](https://github.com/katieshaffer/8-week-sql-challenge/tree/main/Case%20Study%202%3A%20Pizza20Runner)
+* [SQL queries](https://github.com/katieshaffer/8-week-sql-challenge/tree/main/Case%20Study%202%3A%20Pizza%20Runner)
