@@ -1,4 +1,4 @@
-# 8-week-sql-challenge 
+# SQL Challenge
 ## Overview
 This repo contains my SQL queries for the case studies from [Danny Ma's SQL Challenge](https://8weeksqlchallenge.com/)
 
