@@ -1,6 +1,7 @@
 # SQL Challenge
 ## Overview
 This repo contains my SQL queries for the case studies from [Danny Ma's SQL Challenge](https://8weeksqlchallenge.com/)
+It demonstrates SQL skills like use of CTEs, windows functions like `DENSE_RANK`, aggregate functions like `STRING_AGG`, and more.
 
 ## Case Study Details
 
